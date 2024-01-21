@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.feature-card:hover svg{
+    filter: drop-shadow(0px 2px 17px rgb(255, 241, 241));
+    stroke-width: 0;
+}
+
+.feature-card2:hover svg{
+    filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.4));
+    stroke-width: 0;
+}
+
+.feature-card2:hover .card-icon{
+    background: linear-gradient(188.57deg, #2095ff -16.05%, #6416ff 116.32%);
+}
+
+.feature-card2:hover .feature-wave{
+    opacity: 1;
+}
+
+.feature-card:hover .feature-wave{
+    opacity: 1;
+}
+
+.feature-section2{
+    background-position: -400px 0;
+}
